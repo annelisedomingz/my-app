@@ -102,3 +102,12 @@ small {
 a {
   color: white;
 }
+
+a.gitLink {
+  color: black;
+}
+.footer {
+  box-shadow: none;
+  padding: 5px;
+  margin-top: 30px;
+}
