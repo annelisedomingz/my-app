@@ -51,6 +51,7 @@ export default function App() {
           href="https://github.com/annelisedomingz/my-app"
           className="gitLink"
           target="_blank"
+          rel="noreferrer"
         >
           Open-source code by Annelise Dominguez
         </a>
