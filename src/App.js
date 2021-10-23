@@ -36,7 +36,7 @@ export default function App() {
   let day = days[now.getDay()];
   useEffect(() => {
     search();
-  }, []);
+  }, [search]);
 
   const defaults = {
     icon: icon,
