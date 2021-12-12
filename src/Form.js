@@ -16,7 +16,7 @@ export default function Form(props) {
 
   return (
     <form className="row search">
-      <div className="col-6 searchInput">
+      <div className="col-12 col-md-9 searchInput">
         <input
           type="text"
           id="search-field"
@@ -24,7 +24,7 @@ export default function Form(props) {
           onChange={recordInput}
         />
       </div>
-      <div className="col-3 searchButton">
+      <div className="col-12 col-md-3 mt-3 mt-md-0 searchButton">
         <button
           className="mainButton"
           type="submit"
@@ -32,11 +32,6 @@ export default function Form(props) {
           onClick={searchLocation}
         >
           Search
-        </button>
-      </div>
-      <div className="col-3 currentLocation">
-        <button className="mainButton" type="submit">
-          Current Location
         </button>
       </div>
     </form>

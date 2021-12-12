@@ -109,7 +109,7 @@ export default function App() {
         />
 
         <div className="row weather">
-          <div className="col-6 placeinfo">
+          <div className="col-12 col-md-6 placeinfo">
             <h4 id="city">
               <strong>{locationToShow} </strong>| {`${day} ${hours}:${minutes}`}{" "}
               | {description}
@@ -138,7 +138,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <h4>
               <strong>Humidity</strong>{" "}
               <span id="city-humidity">{humidity}%</span>
@@ -155,8 +155,6 @@ export default function App() {
             />
           </div>
         </div>
-      </div>
-      <div className="container footer">
         <a
           href="https://github.com/annelisedomingz/my-app"
           className="gitLink"
